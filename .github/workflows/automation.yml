@@ -2,7 +2,7 @@ name: Playwright Automation
 
 on:
   push:
-    branches: [  master ]
+    branches: [ master ]
 
 jobs:
   test:
@@ -18,8 +18,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Playwright Automation CI
-        run: mvn clean test
+      - name: Install Playwright dependencies
+        run: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
 
-
-
+      - name: Run tests
+        run: mvn test
