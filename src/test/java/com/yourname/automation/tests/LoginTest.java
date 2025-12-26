@@ -9,10 +9,12 @@ public class LoginTest extends baseTest {
 
     @Test
     public void inventoryPageTest() {
+        LoginPage lp = new LoginPage(page);
 
-        page.navigate("https://www.saucedemo.com/inventory.html");
+        lp.navigate();
+        lp.login("standard_user", "secret_sauce");
 
-        String title = page.title();
-        Assert.assertTrue(title.contains("Swag Labs"));
+        page.waitForURL("**/inventory.html");
+        Assert.assertTrue(page.title().contains("Swag Labs"));
     }
 }
