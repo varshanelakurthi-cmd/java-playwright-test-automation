@@ -18,5 +18,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Run Tests
+      - name: Playwright Automation CI Run Tests
         run: mvn clean test
+
+
+
