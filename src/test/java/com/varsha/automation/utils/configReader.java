@@ -1,6 +1,5 @@
-package com.yourname.automation.utils;
+package com.varsha.automation.utils;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 

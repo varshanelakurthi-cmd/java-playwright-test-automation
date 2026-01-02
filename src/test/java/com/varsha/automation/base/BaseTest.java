@@ -1,4 +1,4 @@
-package com.yourname.automation.base;
+package com.varsha.automation.base;
 
 import com.microsoft.playwright.*;
 import org.testng.annotations.AfterMethod;

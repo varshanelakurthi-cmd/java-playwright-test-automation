@@ -1,7 +1,7 @@
-package com.yourname.automation.tests;
+package com.varsha.automation.tests;
 
-import com.yourname.automation.base.BaseTest;
-import com.yourname.automation.pages.LoginPage;
+import com.varsha.automation.base.BaseTest;
+import com.varsha.automation.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

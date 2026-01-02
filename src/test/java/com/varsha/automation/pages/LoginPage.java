@@ -1,4 +1,4 @@
-package com.yourname.automation.pages;
+package com.varsha.automation.pages;
 import com.microsoft.playwright.Page;
 
 public class LoginPage {

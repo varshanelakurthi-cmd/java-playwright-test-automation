@@ -1,7 +1,7 @@
-package com.yourname.automation.tests;
+package com.varsha.automation.tests;
 
 import com.microsoft.playwright.Playwright;
-import com.yourname.automation.utils.ApiLoginUtil;
+import com.varsha.automation.utils.ApiLoginUtil;
 import org.testng.annotations.Test;
 
 public class AuthSetupTest {

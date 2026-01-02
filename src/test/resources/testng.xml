@@ -3,7 +3,7 @@
 
     <test name="Automation Tests">
         <classes>
-            <class name="com.yourname.automation.tests.LoginTest"/>
+            <class name="com.varsha.automation.tests.LoginTest"/>
         </classes>
     </test>
 

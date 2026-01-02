@@ -1,4 +1,4 @@
-package com.yourname.automation.tests;
+package com.varsha.automation.tests;
 import com.microsoft.playwright.*;
 public class BrowserCheck {
     public static void main(String[] args) {
